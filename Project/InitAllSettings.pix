@@ -16,6 +16,7 @@
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>Environment.CurrentDirectory</_expression>
+                <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
@@ -23,6 +24,7 @@
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>dict_paths["RobotFolder"]</_expression>
+                <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
@@ -45,6 +47,7 @@
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>new Dictionary&lt;string,string&gt;()</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -52,6 +55,7 @@
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>dict_foldersToCreate</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -72,6 +76,7 @@
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>dict_paths["RobotFolder"]</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -79,6 +84,7 @@
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>dict_foldersToCreate["WorkFolder"]</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -99,6 +105,7 @@
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>Path.Combine(dict_paths["RobotFolder"], "Templates")</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -106,6 +113,7 @@
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>dict_foldersToCreate["TemplatesFolder"]</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -126,6 +134,7 @@
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>Path.Combine(dict_foldersToCreate["WorkFolder"], "Results")</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -133,6 +142,7 @@
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>dict_foldersToCreate["ResultsFolder"]</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -153,6 +163,7 @@
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>Path.Combine(dict_foldersToCreate["WorkFolder"], "In")</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -160,6 +171,7 @@
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>dict_foldersToCreate["InFolder"]</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -182,6 +194,7 @@
                         <PropertyName>Value</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>dict_foldersToCreate[str_folderKey]</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -189,6 +202,7 @@
                         <PropertyName>To</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>dict_paths[str_folderKey]</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -209,6 +223,7 @@
                         <PropertyName>FileDirectoryPath</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>dict_paths[str_folderKey]</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -216,6 +231,7 @@
                         <PropertyName>Result</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>bool_pathExists</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -240,6 +256,7 @@
                                 <PropertyName>NewFolderPath</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>dict_paths[str_folderKey]</_expression>
+                                <_screenShotBase64 i:nil="true" />
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
@@ -257,16 +274,10 @@
                             <Parent z:Ref="i31" />
                             <PropertyValues>
                               <PropertyValue z:Id="i35">
-                                <PropertyName>Level</PropertyName>
-                                <_dataType>Value</_dataType>
-                                <_expression i:nil="true" />
-                                <_value xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.Core.Base" i:type="d17p1:LogLevel">Info</_value>
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                              <PropertyValue z:Id="i36">
                                 <PropertyName>Text</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>$"Создана папка: {dict_paths[str_folderKey]}"</_expression>
+                                <_screenShotBase64 i:nil="true" />
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
@@ -289,7 +300,7 @@
                         <Text>Папка отсутсвует?</Text>
                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i37" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i36" i:type="ExecutedStep">
                         <Childs />
                         <Id>7b137b67-c1dd-4afa-b614-47c10fba8120</Id>
                         <Parent z:Ref="i30" />
@@ -305,10 +316,11 @@
                     <Id>d8b1f9b7-d1de-4003-b936-370b12225748</Id>
                     <Parent z:Ref="i23" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i38">
+                      <PropertyValue z:Id="i37">
                         <PropertyName>Condition</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>bool_pathExists == false</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -324,24 +336,27 @@
                 <Id>bb8ec6fc-3633-48db-9f03-3ad2a59bf9e3</Id>
                 <Parent z:Ref="i7" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i39">
+                  <PropertyValue z:Id="i38">
                     <PropertyName>Collection</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>dict_foldersToCreate.Keys</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i39">
+                    <PropertyName>Iterator</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>str_folderKey</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
                   <PropertyValue z:Id="i40">
-                    <PropertyName>Iterator</PropertyName>
-                    <_dataType>Expression</_dataType>
-                    <_expression>str_folderKey</_expression>
-                    <_value i:nil="true" />
-                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                  </PropertyValue>
-                  <PropertyValue z:Id="i41">
                     <PropertyName>Counter</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression></_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -364,24 +379,26 @@
             <Text>Создание отсутствующих папок</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i42" i:type="ExecutedStep">
+          <AbstractStep z:Id="i41" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i43" i:type="ExecutedStep">
+              <AbstractStep z:Id="i42" i:type="ExecutedStep">
                 <Childs />
                 <Id>cfbf7935-5a17-4c1c-a46f-2c0458e6d890</Id>
-                <Parent z:Ref="i42" />
+                <Parent z:Ref="i41" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i44">
+                  <PropertyValue z:Id="i43">
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>new Dictionary&lt;string,string&gt;()</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i45">
+                  <PropertyValue z:Id="i44">
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>dict_foldersToReCreate</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -393,22 +410,24 @@
                 <Text>Папки для создания</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i46" i:type="ExecutedStep">
+              <AbstractStep z:Id="i45" i:type="ExecutedStep">
                 <Childs />
                 <Id>751e86d2-06a7-463c-99ad-c1ce8afbe1a4</Id>
-                <Parent z:Ref="i42" />
+                <Parent z:Ref="i41" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i47">
+                  <PropertyValue z:Id="i46">
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>Path.Combine(dict_paths["WorkFolder"], "TEMP")</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i48">
+                  <PropertyValue z:Id="i47">
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>dict_foldersToReCreate["TEMPFolder"]</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -420,24 +439,26 @@
                 <Text>Папка для временных файлов</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i49" i:type="ExecutedStep">
+              <AbstractStep z:Id="i48" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i50" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i49" i:type="ExecutedStep">
                     <Childs />
                     <Id>a1160182-88a2-424c-8208-852b21ac66e1</Id>
-                    <Parent z:Ref="i49" />
+                    <Parent z:Ref="i48" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i51">
+                      <PropertyValue z:Id="i50">
                         <PropertyName>Value</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>dict_foldersToReCreate[str_folderKey]</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
-                      <PropertyValue z:Id="i52">
+                      <PropertyValue z:Id="i51">
                         <PropertyName>To</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>dict_paths[str_folderKey]</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -449,22 +470,24 @@
                     <Text>Присвоить значение</Text>
                     <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i53" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i52" i:type="ExecutedStep">
                     <Childs />
                     <Id>e545f176-127a-4b47-a009-e736665d536f</Id>
-                    <Parent z:Ref="i49" />
+                    <Parent z:Ref="i48" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i54">
+                      <PropertyValue z:Id="i53">
                         <PropertyName>FileDirectoryPath</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>dict_paths[str_folderKey]</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
-                      <PropertyValue z:Id="i55">
+                      <PropertyValue z:Id="i54">
                         <PropertyName>Result</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>bool_pathExists</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -476,19 +499,20 @@
                     <Text></Text>
                     <_activityFullName>Activities.Files.PathExist</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i56" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i55" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i57" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i56" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i58" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i57" i:type="ExecutedStep">
                             <Childs />
                             <Id>60d26d8b-2566-4e5f-b133-44d7382a6f7f</Id>
-                            <Parent z:Ref="i57" />
+                            <Parent z:Ref="i56" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i59">
+                              <PropertyValue z:Id="i58">
                                 <PropertyName>FilePath</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>dict_paths[str_folderKey]</_expression>
+                                <_screenShotBase64 i:nil="true" />
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
@@ -500,22 +524,16 @@
                             <Text i:nil="true" />
                             <_activityFullName>Activities.Files.DeleteFile</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i60" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i59" i:type="ExecutedStep">
                             <Childs />
                             <Id>aca625ab-d0a8-4b76-beec-b524f4cb597d</Id>
-                            <Parent z:Ref="i57" />
+                            <Parent z:Ref="i56" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i61">
-                                <PropertyName>Level</PropertyName>
-                                <_dataType>Value</_dataType>
-                                <_expression i:nil="true" />
-                                <_value xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.Core.Base" i:type="d17p1:LogLevel">Info</_value>
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                              <PropertyValue z:Id="i62">
+                              <PropertyValue z:Id="i60">
                                 <PropertyName>Text</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>$"Папка удалена: {dict_paths[str_folderKey]}"</_expression>
+                                <_screenShotBase64 i:nil="true" />
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
@@ -527,15 +545,16 @@
                             <Text></Text>
                             <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i63" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i61" i:type="ExecutedStep">
                             <Childs />
                             <Id>cc7be0b7-ae3c-4aa9-a262-28e46669c1d6</Id>
-                            <Parent z:Ref="i57" />
+                            <Parent z:Ref="i56" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i64">
+                              <PropertyValue z:Id="i62">
                                 <PropertyName>Count</PropertyName>
                                 <_dataType>Value</_dataType>
                                 <_expression i:nil="true" />
+                                <_screenShotBase64 i:nil="true" />
                                 <_value xmlns:d17p1="http://www.w3.org/2001/XMLSchema" i:type="d17p1:int">3</_value>
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
@@ -549,7 +568,7 @@
                           </AbstractStep>
                         </Childs>
                         <Id>582d890d-91cc-499f-88b5-35cdad6f6706</Id>
-                        <Parent z:Ref="i56" />
+                        <Parent z:Ref="i55" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <EnableStatus>true</EnableStatus>
@@ -558,10 +577,10 @@
                         <Text>Папка существует?</Text>
                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i65" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i63" i:type="ExecutedStep">
                         <Childs />
                         <Id>903f582b-2382-4eff-92c4-d756dfc32711</Id>
-                        <Parent z:Ref="i56" />
+                        <Parent z:Ref="i55" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <EnableStatus>true</EnableStatus>
@@ -572,12 +591,13 @@
                       </AbstractStep>
                     </Childs>
                     <Id>2dd68348-ca8d-4045-812c-c21b8ccc7e7a</Id>
-                    <Parent z:Ref="i49" />
+                    <Parent z:Ref="i48" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i66">
+                      <PropertyValue z:Id="i64">
                         <PropertyName>Condition</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>bool_pathExists</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -589,15 +609,16 @@
                     <Text i:nil="true" />
                     <_activityFullName>BR.Core.Base.If</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i67" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i65" i:type="ExecutedStep">
                     <Childs />
                     <Id>fae55766-2bd9-402d-86f8-9ef905013411</Id>
-                    <Parent z:Ref="i49" />
+                    <Parent z:Ref="i48" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i68">
+                      <PropertyValue z:Id="i66">
                         <PropertyName>NewFolderPath</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>dict_paths[str_folderKey]</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -609,22 +630,16 @@
                     <Text>Создать папку</Text>
                     <_activityFullName>Activities.Files.CreateFolder</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i69" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i67" i:type="ExecutedStep">
                     <Childs />
                     <Id>306bd085-408b-4fa3-a135-33cfb175a8a6</Id>
-                    <Parent z:Ref="i49" />
+                    <Parent z:Ref="i48" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i70">
-                        <PropertyName>Level</PropertyName>
-                        <_dataType>Value</_dataType>
-                        <_expression i:nil="true" />
-                        <_value xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.Core.Base" i:type="d13p1:LogLevel">Info</_value>
-                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                      </PropertyValue>
-                      <PropertyValue z:Id="i71">
+                      <PropertyValue z:Id="i68">
                         <PropertyName>Text</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>$"Создана папка: {dict_paths[str_folderKey]}"</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -638,26 +653,29 @@
                   </AbstractStep>
                 </Childs>
                 <Id>581b8897-ff4f-42e6-953d-db09318638bc</Id>
-                <Parent z:Ref="i42" />
+                <Parent z:Ref="i41" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i72">
+                  <PropertyValue z:Id="i69">
                     <PropertyName>Collection</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>dict_foldersToReCreate.Keys</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i73">
+                  <PropertyValue z:Id="i70">
                     <PropertyName>Iterator</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_folderKey</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i74">
+                  <PropertyValue z:Id="i71">
                     <PropertyName>Counter</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression></_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -691,24 +709,26 @@
         <Text>Создание проектных папок</Text>
         <_activityFullName>BR.Core.Base.Container</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i75" i:type="ExecutedStep">
+      <AbstractStep z:Id="i72" i:type="ExecutedStep">
         <Childs>
-          <AbstractStep z:Id="i76" i:type="ExecutedStep">
+          <AbstractStep z:Id="i73" i:type="ExecutedStep">
             <Childs />
             <Id>6be76429-f132-48a8-8446-faf165dad170</Id>
-            <Parent z:Ref="i75" />
+            <Parent z:Ref="i72" />
             <PropertyValues>
-              <PropertyValue z:Id="i77">
+              <PropertyValue z:Id="i74">
                 <PropertyName>Result</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>list_workbookSheets</_expression>
+                <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i78">
+              <PropertyValue z:Id="i75">
                 <PropertyName>FileName</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_configFile</_expression>
+                <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
@@ -720,22 +740,24 @@
             <Text></Text>
             <_activityFullName>Activities.Office.Excel.GetSheetsNames</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i79" i:type="ExecutedStep">
+          <AbstractStep z:Id="i76" i:type="ExecutedStep">
             <Childs />
             <Id>6c68e1e0-65e5-428d-a3aa-07e17e768a8a</Id>
-            <Parent z:Ref="i75" />
+            <Parent z:Ref="i72" />
             <PropertyValues>
-              <PropertyValue z:Id="i80">
+              <PropertyValue z:Id="i77">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>""</_expression>
+                <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i81">
+              <PropertyValue z:Id="i78">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_valueColumnName</_expression>
+                <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
@@ -747,60 +769,43 @@
             <Text>Название колонки, содержащей значение</Text>
             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i82" i:type="ExecutedStep">
+          <AbstractStep z:Id="i79" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i83" i:type="ExecutedStep">
+              <AbstractStep z:Id="i80" i:type="ExecutedStep">
                 <Childs />
                 <Id>3cde4fd1-801d-4b8f-bd59-f382aa1f9f4e</Id>
-                <Parent z:Ref="i82" />
+                <Parent z:Ref="i79" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i84">
+                  <PropertyValue z:Id="i81">
                     <PropertyName>SheetName</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_sheet</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i85">
+                  <PropertyValue z:Id="i82">
                     <PropertyName>Range</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>""</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i86">
-                    <PropertyName>WithHeaders</PropertyName>
-                    <_dataType>Value</_dataType>
-                    <_expression i:nil="true" />
-                    <_value xmlns:d11p1="http://www.w3.org/2001/XMLSchema" i:type="d11p1:boolean">true</_value>
-                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                  </PropertyValue>
-                  <PropertyValue z:Id="i87">
-                    <PropertyName>IgnoreEmptyRowsColumsAtStart</PropertyName>
-                    <_dataType>Value</_dataType>
-                    <_expression i:nil="true" />
-                    <_value xmlns:d11p1="http://www.w3.org/2001/XMLSchema" i:type="d11p1:boolean">true</_value>
-                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                  </PropertyValue>
-                  <PropertyValue z:Id="i88">
+                  <PropertyValue z:Id="i83">
                     <PropertyName>Result</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>configTable</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i89">
+                  <PropertyValue z:Id="i84">
                     <PropertyName>FileName</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_configFile</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
-                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                  </PropertyValue>
-                  <PropertyValue z:Id="i90">
-                    <PropertyName>GetTypedValues</PropertyName>
-                    <_dataType>Value</_dataType>
-                    <_expression i:nil="true" />
-                    <_value xmlns:d11p1="http://www.w3.org/2001/XMLSchema" i:type="d11p1:boolean">false</_value>
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
                 </PropertyValues>
@@ -811,26 +816,28 @@
                 <Text>Прочитать диапазон ячеек</Text>
                 <_activityFullName>Activities.Office.Excel.ReadRange</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i91" i:type="ExecutedStep">
+              <AbstractStep z:Id="i85" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i92" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i86" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i93" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i87" i:type="ExecutedStep">
                         <Childs />
                         <Id>b54e6029-62d2-41c4-98d0-d1e4d993f5a8</Id>
-                        <Parent z:Ref="i92" />
+                        <Parent z:Ref="i86" />
                         <PropertyValues>
-                          <PropertyValue z:Id="i94">
+                          <PropertyValue z:Id="i88">
                             <PropertyName>Value</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>"Значение"</_expression>
+                            <_screenShotBase64 i:nil="true" />
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-                          <PropertyValue z:Id="i95">
+                          <PropertyValue z:Id="i89">
                             <PropertyName>To</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>str_valueColumnName</_expression>
+                            <_screenShotBase64 i:nil="true" />
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
@@ -844,7 +851,7 @@
                       </AbstractStep>
                     </Childs>
                     <Id>31d8618f-c9e6-445e-b870-fa3f2d5400cf</Id>
-                    <Parent z:Ref="i91" />
+                    <Parent z:Ref="i85" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <EnableStatus>true</EnableStatus>
@@ -853,10 +860,10 @@
                     <Text></Text>
                     <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i96" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i90" i:type="ExecutedStep">
                     <Childs />
                     <Id>81ee9207-1346-4c17-8306-a46161653a4d</Id>
-                    <Parent z:Ref="i91" />
+                    <Parent z:Ref="i85" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <EnableStatus>true</EnableStatus>
@@ -867,12 +874,13 @@
                   </AbstractStep>
                 </Childs>
                 <Id>dbd511db-06d7-4d15-a928-a577051c825a</Id>
-                <Parent z:Ref="i82" />
+                <Parent z:Ref="i79" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i97">
+                  <PropertyValue z:Id="i91">
                     <PropertyName>Condition</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_sheet=="Settings" </_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -884,39 +892,34 @@
                 <Text>Определение колонки, содержащей значение</Text>
                 <_activityFullName>BR.Core.Base.If</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i98" i:type="ExecutedStep">
+              <AbstractStep z:Id="i92" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i99" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i93" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i100" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i94" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i101" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i95" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i102" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i96" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i103" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i97" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>24e438fd-f0e6-4307-9d0a-e5abe6be992a</Id>
-                                    <Parent z:Ref="i102" />
+                                    <Parent z:Ref="i96" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i104">
+                                      <PropertyValue z:Id="i98">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>str_value</_expression>
+                                        <_screenShotBase64 i:nil="true" />
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i105">
-                                        <PropertyName>Id</PropertyName>
-                                        <_dataType>Value</_dataType>
-                                        <_expression i:nil="true" />
-                                        <_value xmlns:d21p1="http://www.w3.org/2001/XMLSchema" i:type="d21p1:int">0</_value>
-                                        <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                                      </PropertyValue>
-                                      <PropertyValue z:Id="i106">
+                                      <PropertyValue z:Id="i99">
                                         <PropertyName>Key</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>row[str_valueColumnName].ToString()</_expression>
+                                        <_screenShotBase64 i:nil="true" />
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
@@ -928,22 +931,24 @@
                                     <Text></Text>
                                     <_activityFullName>Activities.Master.Data.GetData</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i107" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i100" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>8a42486c-6b2d-49ba-a3eb-a58d301e44dc</Id>
-                                    <Parent z:Ref="i102" />
+                                    <Parent z:Ref="i96" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i108">
+                                      <PropertyValue z:Id="i101">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>str_value</_expression>
+                                        <_screenShotBase64 i:nil="true" />
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i109">
+                                      <PropertyValue z:Id="i102">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>dict_config[row["Имя"].ToString().Trim()]</_expression>
+                                        <_screenShotBase64 i:nil="true" />
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
@@ -957,7 +962,7 @@
                                   </AbstractStep>
                                 </Childs>
                                 <Id>43db076f-5c01-4fa3-8996-d0bacb15b729</Id>
-                                <Parent z:Ref="i101" />
+                                <Parent z:Ref="i95" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <EnableStatus>true</EnableStatus>
@@ -966,24 +971,26 @@
                                 <Text>Тип = Text</Text>
                                 <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i110" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i103" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i111" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i104" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>0cb4276a-a3fd-4a03-bb93-fe50b8354fa0</Id>
-                                    <Parent z:Ref="i110" />
+                                    <Parent z:Ref="i103" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i112">
+                                      <PropertyValue z:Id="i105">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>row[str_valueColumnName].ToString()</_expression>
+                                        <_screenShotBase64 i:nil="true" />
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i113">
+                                      <PropertyValue z:Id="i106">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>dict_paths[row["Имя"].ToString().Trim()]</_expression>
+                                        <_screenShotBase64 i:nil="true" />
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
@@ -997,12 +1004,13 @@
                                   </AbstractStep>
                                 </Childs>
                                 <Id>a69aec8a-fea9-4511-9e7f-083d74ec9910</Id>
-                                <Parent z:Ref="i101" />
+                                <Parent z:Ref="i95" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i114">
+                                  <PropertyValue z:Id="i107">
                                     <PropertyName>Condition</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>row["Тип*"].ToString().Trim().Equals("Path")</_expression>
+                                    <_screenShotBase64 i:nil="true" />
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
@@ -1014,24 +1022,26 @@
                                 <Text>Тип = Path</Text>
                                 <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i115" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i108" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i116" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i109" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>bf13ad2d-608f-4590-abf9-be38b6fe233f</Id>
-                                    <Parent z:Ref="i115" />
+                                    <Parent z:Ref="i108" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i117">
+                                      <PropertyValue z:Id="i110">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>row[str_valueColumnName]</_expression>
+                                        <_screenShotBase64 i:nil="true" />
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i118">
+                                      <PropertyValue z:Id="i111">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>dict_config[row["Имя"].ToString().Trim()]</_expression>
+                                        <_screenShotBase64 i:nil="true" />
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
@@ -1045,12 +1055,13 @@
                                   </AbstractStep>
                                 </Childs>
                                 <Id>cd38ab7e-98da-421c-af40-7c9e20b82119</Id>
-                                <Parent z:Ref="i101" />
+                                <Parent z:Ref="i95" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i119">
+                                  <PropertyValue z:Id="i112">
                                     <PropertyName>Condition</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>string.IsNullOrEmpty(row["Тип*"].ToString().Trim())</_expression>
+                                    <_screenShotBase64 i:nil="true" />
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
@@ -1062,10 +1073,10 @@
                                 <Text>Тип пустой?</Text>
                                 <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i120" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i113" i:type="ExecutedStep">
                                 <Childs />
                                 <Id>be5df62d-fc0a-4d96-9bf0-130b5cf48fce</Id>
-                                <Parent z:Ref="i101" />
+                                <Parent z:Ref="i95" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <EnableStatus>true</EnableStatus>
@@ -1076,12 +1087,13 @@
                               </AbstractStep>
                             </Childs>
                             <Id>a63384fd-db1a-490f-94ee-4b2cf6036036</Id>
-                            <Parent z:Ref="i100" />
+                            <Parent z:Ref="i94" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i121">
+                              <PropertyValue z:Id="i114">
                                 <PropertyName>Condition</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>row["Тип*"].ToString().Trim().Equals("Text")</_expression>
+                                <_screenShotBase64 i:nil="true" />
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
@@ -1095,7 +1107,7 @@
                           </AbstractStep>
                         </Childs>
                         <Id>56f19f08-e00d-46a4-9016-33b226e99b7b</Id>
-                        <Parent z:Ref="i99" />
+                        <Parent z:Ref="i93" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <EnableStatus>true</EnableStatus>
@@ -1104,10 +1116,10 @@
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i122" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i115" i:type="ExecutedStep">
                         <Childs />
                         <Id>4539ee9b-e20d-4091-8b3a-d9d73ef24e4f</Id>
-                        <Parent z:Ref="i99" />
+                        <Parent z:Ref="i93" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <EnableStatus>true</EnableStatus>
@@ -1118,12 +1130,13 @@
                       </AbstractStep>
                     </Childs>
                     <Id>950e7b06-9755-454e-89ab-6e468fa3c952</Id>
-                    <Parent z:Ref="i98" />
+                    <Parent z:Ref="i92" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i123">
+                      <PropertyValue z:Id="i116">
                         <PropertyName>Condition</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>string.IsNullOrEmpty(row["Имя"].ToString().Trim()) == false</_expression>
+                        <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -1137,26 +1150,29 @@
                   </AbstractStep>
                 </Childs>
                 <Id>b05fcb2c-918d-4918-b575-8cfd55ffe680</Id>
-                <Parent z:Ref="i82" />
+                <Parent z:Ref="i79" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i124">
+                  <PropertyValue z:Id="i117">
                     <PropertyName>Collection</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>configTable.Rows</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i125">
+                  <PropertyValue z:Id="i118">
                     <PropertyName>Iterator</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>row</_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i126">
+                  <PropertyValue z:Id="i119">
                     <PropertyName>Counter</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression></_expression>
+                    <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
@@ -1170,26 +1186,29 @@
               </AbstractStep>
             </Childs>
             <Id>3bfcffd4-d56d-4d5e-8538-a0f151c0e929</Id>
-            <Parent z:Ref="i75" />
+            <Parent z:Ref="i72" />
             <PropertyValues>
-              <PropertyValue z:Id="i127">
+              <PropertyValue z:Id="i120">
                 <PropertyName>Collection</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>list_workbookSheets</_expression>
+                <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i128">
+              <PropertyValue z:Id="i121">
                 <PropertyName>Iterator</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_sheet</_expression>
+                <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i129">
+              <PropertyValue z:Id="i122">
                 <PropertyName>Counter</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression></_expression>
+                <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
@@ -1228,21 +1247,21 @@
     <d2p1:string>PIX.Core.Exceptions</d2p1:string>
   </Namespaces>
   <Params>
-    <Parameter z:Id="i130">
+    <Parameter z:Id="i123">
       <DefaultValueExpression>@"Data\Config.xlsx"</DefaultValueExpression>
       <Description></Description>
       <Name>str_configFile</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i131">
+    <Parameter z:Id="i124">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_config</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-    <Parameter z:Id="i132">
+    <Parameter z:Id="i125">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_paths</Name>
