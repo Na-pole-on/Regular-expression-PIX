@@ -17,11 +17,7 @@
     </ProjectFileItem>
     <ProjectFileItem z:Id="i5">
       <IsMain>false</IsMain>
-      <Path>ReadFiles\ReadFiles_ReadDP.pix</Path>
-    </ProjectFileItem>
-    <ProjectFileItem z:Id="i6">
-      <IsMain>false</IsMain>
-      <Path>ReadFiles\ReadFiles_ReadInvoice.pix</Path>
+      <Path>ReadFiles\ReadFiles_ReadDocuments.pix</Path>
     </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
